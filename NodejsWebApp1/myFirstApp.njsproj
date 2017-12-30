@@ -2,7 +2,7 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <Name>bfc</Name>
+    <Name>myFirstApp</Name>
     <RootNamespace>NodejsWebApp1</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -10,7 +10,8 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>40094353-4b5f-4110-967a-c9c1ed3020e3</ProjectGuid>
-    <ProjectHome>..\..\..\visual studio 2017\Projects\NodejsWebApp1\NodejsWebApp1\</ProjectHome>
+    <ProjectHome>
+    </ProjectHome>
     <StartupFile>server.js</StartupFile>
     <SearchPath>
     </SearchPath>
